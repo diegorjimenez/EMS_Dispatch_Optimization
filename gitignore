@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (optional: keep raw data if desired)
+# Uncomment if you want to ignore all data:
+# data/
+# But allow README.md
+!data/README.md
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Environment files
+.env
