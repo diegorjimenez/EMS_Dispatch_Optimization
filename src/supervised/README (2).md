@@ -35,9 +35,10 @@ Includes:
 
 Every model file begins by loading:
 ```python
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, '..', '..', 'data', 'allegheny_county_911_EMS_dispatches.csv')
-df = pd.read_csv(DATA_PATH)
+file_id = "1un4xuLvenGq7lYbL2ASSa-pjG1FYsTO8"
+url = f"https://drive.google.com/uc?id={file_id}&export=download"
+
+df = pd.read_csv(url)
 ```
 
 This ensures the code works anywhere the project is cloned.
