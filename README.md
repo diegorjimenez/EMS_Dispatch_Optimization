@@ -8,29 +8,29 @@ This project analyzes EMS dispatch data from Allegheny County using both supervi
 EMS_Dispatch_Optimization/
 │
 ├── data/
-│   └── allegheny_county_911_EMS_dispatches.csv
+│   └── allegheny_county_911_EMS_dispatches_sampledata_5k.csv
 │
 ├── src/
 │   ├── supervised/
-│   │   └── supervised_models.py
+│   │   └── supervised_models_drive.py
 │   ├── unsupervised/
-│   │   └── unsupervised_models.py
+│   │   └── unsupervised_models_drive.py
 │   └── main.py
 │
 └── notebooks/
-    └── analysis_clean.ipynb
+    └── full_analysis_.ipynb
 ```
 
 ## How to Run
 
 ### Supervised Models
 ```
-python src/supervised/supervised_models.py
+python src/supervised/supervised_models_drive.py
 ```
 
 ### Unsupervised Models
 ```
-python src/unsupervised/unsupervised_models.py
+python src/unsupervised/unsupervised_models_drive.py
 ```
 
 ### Full Pipeline
